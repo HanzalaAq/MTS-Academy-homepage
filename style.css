@@ -1,0 +1,116 @@
+/* Basic Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  height: 60px;
+  background-color: #0f1111;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#navbar img {
+  height: 60px;
+  width: 50px;
+}
+
+#logo {
+  color: rgb(236, 189, 59);
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+a {
+  margin-right: 20px;
+  padding: 5px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: rgb(211, 162, 27);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #d0951b;
+}
+
+#hero {
+  flex: 1;
+  background: url("./hand-drawn-back-school-background_23-2149464866.avif")
+    no-repeat center center/cover;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+#enroll-button {
+  font-size: 24px;
+  padding: 15px 30px;
+  background-color: rgb(211, 162, 27);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px; /* Adjust this as needed */
+}
+
+#enroll-button:hover {
+  background-color: #d0951b;
+}
+
+.taqi {
+  border-radius: 50%;
+  border: 4px solid black; /* Increased border width */
+  background-image: url(Capture.JPG);
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 20px; /* Adds space below the image */
+}
+
+.mentor {
+  color: #0f1111;
+  max-width: 600px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  background-color: #0f1111;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
