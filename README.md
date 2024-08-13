@@ -1,1 +1,1 @@
-# MTS-Academy-homepage
+# MTS-Academy-basichomepage
